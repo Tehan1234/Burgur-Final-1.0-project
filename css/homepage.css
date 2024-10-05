@@ -1,0 +1,274 @@
+#emailInput,
+#adminPassword,
+#userPassword{
+
+    width: 300px;
+    background-color:white;
+
+}
+#signInBtn,
+#signUpBtn{
+  width: 145px;
+}
+#signInFormCont{
+  width: 700px;
+  background-color: #E7913E;
+  position: relative;
+
+}
+.body{
+  background-color: #FCE5B3;
+  position: relative;
+}
+#loginImg{
+  border-radius: 50%;
+  width: 100px;height: 100px;
+}
+#signinLbl{
+  margin-top: 10px;
+}
+#imgBurger {
+  position: absolute;
+  top: 240px;
+  right: 0px;
+  transform-origin: bottom right;
+  width: 400px; 
+  height: auto; 
+}
+#imgBurger1 {
+    position: absolute;
+  top: 240px;
+  left: 0px;
+  transform-origin: bottom left;
+  width: 400px; 
+  height: auto; 
+}
+#addCusTble {
+  width: 100vw; 
+  height: 100vh; 
+  border-style: none;
+  border-collapse: collapse; 
+}
+#addCusLeft, #addCusRight {
+  height: 100%;
+}
+#addCusLeft {
+  width: 31.7%;
+  background-color: #E7913E; 
+}
+#addCusRight {
+  width: 68.3%;
+  background-color:  #E7913E; 
+  position: relative; 
+}
+#addItemTble {
+  width: 100vw; 
+  height: 100vh; 
+  border-style: none;
+  border-collapse: collapse; 
+}
+#addItemLeft, #addCusRight {
+  height: 100%;
+}
+#addItemLeft {
+  width: 31.7%;
+  background-color: #ED7076; 
+}
+#addItemRight {
+  width: 68.3%;
+  background-color:  #ED7076; 
+  position: relative; 
+}
+#closeTag{
+  position: absolute;
+  height: 15px;
+  width: auto;
+  top: 120px;
+  left: 74%;
+}
+#closeTag:hover{
+  color:white;
+}
+#carouselExampleIndicators{
+  top: 120px;
+} 
+#sidebar {
+  width: 4.5rem;
+  transition: width 0.3s;
+  background-color: #EBF0C7; 
+  position: fixed;
+  height: 100%;
+  z-index: 1000;
+}
+#carousel-container {
+  margin-left: 4.5rem;
+  transition: margin-left 0.3s, width 0.3s;
+  width: calc(100% - 4.5rem);
+  position: relative;
+  z-index: 900;
+}
+  
+#logo-link {
+  padding: 1rem;
+} 
+#logo-text {
+  margin-left: 0.5rem;
+  display: none;
+}
+#nav-list {
+  padding-left: 0;
+}
+  
+#nav-list .nav-item {
+  text-align: center;
+}
+#nav-list .nav-link {
+  padding: 0.75rem;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  align-items: center;
+}
+#nav-list svg, #nav-list i {
+  margin-right: 0.5rem;
+  vertical-align: middle; 
+}
+#nav-list i {
+  font-size: 1.25rem; 
+}
+#nav-home {
+  background-color: #97AC07; 
+  color: white; 
+}
+#nav-home svg, #nav-home i {
+  fill: white; 
+}
+#nav-home:hover,
+#nav-customer:hover,
+#nav-items:hover,
+#nav-products:hover,
+#nav-customers:hover,
+#nav-search:hover {
+  background-color: #97AC07; 
+  color: white; 
+}
+#liAddItem:hover,
+#liDelItem:hover,
+#liAddCus:hover,
+#liDelCus:hover {
+  background-color: #E2ED94; 
+}
+#nav-home:hover svg, #nav-home:hover i,
+#nav-dashboard:hover svg, #nav-dashboard:hover i,
+#nav-orders:hover svg, #nav-orders:hover i,
+#nav-products:hover svg, #nav-products:hover i,
+#nav-customers:hover svg, #nav-customers:hover i,#nav-search:hover svg, #nav-search:hover i {
+  fill: white; 
+}
+#top-divider, #bottom-divider {
+  border: 0;
+  height: 1px;
+  background-color: #dee2e6; 
+}
+#sidebar.text-center #logo-text,
+#sidebar.text-center [id^="text-"] {
+  display: none;
+}
+  
+#sidebar:not(.text-center) #logo-text,
+#sidebar:not(.text-center) [id^="text-"] {
+  display: inline;
+}
+#orderH1{
+  position: absolute;
+  right: 100px;
+  top: 20px;
+  font-size: 50px;
+  color: #E7913E;
+}
+
+#delCusBtn{
+  width: 125px;
+  background-color: #FCE5B3; 
+  border-color: black;
+  color:black; 
+  position: absolute;
+  top: 83%;
+  left: 65%;
+}
+#updateCusBtn{
+  width: 125px;
+  background-color: #FCE5B3; 
+  border-color: black;
+  color:black; 
+  position: absolute;
+  top: 83%;
+  left: 52%;
+}
+#updateCusTable {
+  width: 100vw; 
+  height: 100vh; 
+  border-style: none;
+  border-collapse: collapse; 
+}
+#updateCusLeft, #updateCusRight {
+  height: 100%;
+}
+#updateCusLeft {
+  width: 31.7%;
+  background-color: #FDD127; 
+}
+#updateCusRight {
+  width: 68.3%;
+  background-color:  #FDD127; 
+  position: relative; 
+}
+#updateCush1{
+  position: absolute;
+  right: 310px;
+  top: 80px;
+  font-size: 56px;
+  text-shadow: 2px 2px 5px #384833;
+}
+#updateItemTble {
+  width: 100vw; 
+  height: 100vh; 
+  border-style: none;
+  border-collapse: collapse; 
+}
+#updateItemLeft, #updateItemRight {
+  height: 100%;
+}
+#updateItemLeft{
+  width: 31.7%;
+  background-color: #E7913E; 
+}
+#updateItemRight {
+  width: 68.3%;
+  background-color:  #E7913E; 
+  position: relative; 
+}
+#updateItemh1{
+  position: absolute;
+  right: 310px;
+  top: 80px;
+  font-size: 56px;
+  text-shadow: 2px 2px 5px #384833;
+}
+#delItemBtn{
+  width: 125px;
+  background-color: #FCE5B3; 
+  border-color: black;
+  color:black; 
+  position: absolute;
+  top: 83%;
+  left: 65%;
+}
+#updateItemBtn{
+width: 125px;
+background-color: #FCE5B3; 
+border-color: black;
+color:black; 
+position: absolute;
+top: 83%;
+left: 52%;
+}

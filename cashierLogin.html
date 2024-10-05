@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Master Login Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body">
+    <div class="login-container">
+        <h1>King Burger</h1>
+        <form class="login-form">
+            <label for="name">Name</label>
+            <input type="text" id="UserName" name="name" placeholder="Enter Name" aria-label="Name">
+            
+            <label for="password">Password</label>
+            <input type="password" id="Password" name="password" placeholder="Enter Password" aria-label="Password">
+            
+            <button class="navigate-button" onclick="cashiersignin(event)">Login</button>
+        </form>
+
+        <div id="error-message" style="display:none; color: red;">Invalid credentials. Please try again.</div>
+    </div>
+
+    <script src="app.js"></script>
+</body> 
+</html>

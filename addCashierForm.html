@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Cashier</title>
+    <link rel="stylesheet" href="css/style.css">
+      <script src="https://kit.fontawesome.com/189c9d1885.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="AddCasbody">
+    <div class="heading-container">
+        <h1 id="HeadingPlaceOrder">Add Cashier</h1>
+    </div>
+    <div id="AddCashierBody">
+        <div class="input-container">
+            <label class="CashierNameUpdate" for="name">Cashier Name :</label>
+            <input type="text" id="CashierNameTxt" >
+        </div>
+        <div class="input-container">
+            <label class="CashierNameUpdate" for="name">Cashier Password:</label>
+            <input type="text" id="CashierPasswordTxt" >
+        </div>
+        <input id="AddBtn" type="button" value="Add" onclick="addCashier()"> 
+        <input id="CashierBack" type="button" value="Back" onclick="location.href='adminPortal.html'">
+    </div>
+    <div id="toastBox"></div>
+    <script src="app.js"></script>
+</body>
+</html>

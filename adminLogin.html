@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Admin Login</title>
+</head>
+<body class="body">
+    <div class="login-container">
+        <h1>King Burger</h1>
+        <div class="login-form">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="AdminName" name="name" required>
+                <label for="password">Password</label>
+                <input type="password" id="AdminPassword" name="password" required>
+                <div class="button-group">
+                    <button type="submit" class="signin" onclick="adminSignin(event)">Sign-in</button>
+                </div>
+            </form>
+            <div id="error-message" style="display:none; color: red;">Invalid credentials. Please try again.</div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
